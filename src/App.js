@@ -43,7 +43,7 @@ function App() {
             items: oldColumn
           },
           [result.destination.droppableId]: {
-            ...state.columns[result.source.droppableId],
+            ...state.columns[result.destination.droppableId],
             items: newColumn
           }
         }
